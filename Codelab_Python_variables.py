@@ -1,11 +1,11 @@
-#We initialize the four primitive types
+#Declaring the four primitive types
 
 int_example = 30
 float_example = 31.1
 string_example = "hello world"
 boolean_example = True
 
-#Here we create a new variable called concat_example where we convert all previous values
+#Declaring a new variable called concat_example where we convert all previous values
 #to strings and we concatenate them together:
 concat_example = str(int_example) + str(float_example) + string_example + str(boolean_example)
 
@@ -25,7 +25,7 @@ It’s usually 2**31 - 1 on a 32-bit platform and 2**63 - 1 on a 64-bit platform
 The values provided by sys.maxsize and sys.float_info are specific to the platform and Python version in use.
 '''
 
-#We initialize a pairs_sum integer variable to hold the sum of pairs from int_example
+#Declaring a pairs_sum integer variable to hold the sum of pairs from int_example
 pairs_sum = 0
 
 #Sum of pairs formula applied to int_example
@@ -33,7 +33,7 @@ for i in range(int_example+1):
     if i % 2 == 0:
         pairs_sum += i
 
-#We print all results from previous exercises
+#Displaying all results from previous exercises
 print('Primitive data types in Python: ')
 print('Integer: ' + str(int_example))
 print('Float: ' + str(float_example))
